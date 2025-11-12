@@ -64,7 +64,7 @@ export default function Contact() {
             </p>
 
             <div className="space-y-6">
-              <a href="mailto:rohit.anish158@gamil.com" className="flex items-center group">
+              <a href="mailto:rohitanish158@gmail.com" className="flex items-center group">
                 <div className="p-3 rounded-full bg-gray-800 mr-4 group-hover:bg-purple-500/20 transition-colors duration-300">
                   <Mail className="h-6 w-6 text-purple-400" />
                 </div>
