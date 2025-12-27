@@ -13,12 +13,12 @@ const skills = [
   {
     name: "Backend",
     icon: <Server className="h-6 w-6 text-cyan-400" />,
-    items: ["Node.js", "Express", "Python", "Django", "FastAPI"],
+    items: ["Node.js", "Express", "Python","FastAPI"],
   },
   {
     name: "Database",
     icon: <Database className="h-6 w-6 text-emerald-400" />,
-    items: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"],
+    items: ["PostgreSQL", "MySQL", "Firebase"],
   },
   {
     name: "Machine Learning",
@@ -28,12 +28,12 @@ const skills = [
   {
     name: "Data Science",
     icon: <LineChart className="h-6 w-6 text-yellow-400" />,
-    items: ["Pandas", "NumPy", "Matplotlib", "Jupyter", "Data Analysis"],
+    items: ["Pandas", "NumPy","Data Analysis"],
   },
   {
     name: "DevOps",
     icon: <Layers className="h-6 w-6 text-orange-400" />,
-    items: ["Docker", "Kubernetes", "CI/CD", "AWS", "Git"],
+    items: ["Docker", "AWS", "Git"],
   },
 ]
 
@@ -109,7 +109,7 @@ export default function About() {
              My work is driven by a passion for technology and an unwavering curiosity to explore emerging methodologies and tools.
             </p>
             <p className="text-gray-300 mb-8 leading-relaxed">
-            I thrive on pushing the boundaries of what's possible—crafting seamless user experiences
+            I thrive on pushing the boundaries of what's possible,crafting seamless user experiences
              while developing intelligent systems that make a meaningful impact.
               Whether refining intricate algorithms or architecting scalable software,
                I remain committed to excellence and continuous learning in every project I undertake.

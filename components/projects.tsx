@@ -7,12 +7,21 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "FinRAG",
+    description: `Built a financial QA platform using RAG (LangChain + sentence transformers) to retrieve and summarize
+market-related information`,
+    image: "/finrag1.png?height=400&width=600",
+    tags: ["TypeScript", "Node.js", "Langchain", "Python"],
+    demoLink: "#",
+    githubLink: "https://github.com/RohitAnish1/FinRAG.git",
+  },
+  {
     title: "EchoFrame",
     description: `Led the development of EchoFrame, an AI-powered smart glass for the visually impaired, 
                  using YOLO-based object detection and real-time audio
                 feedback for enhanced navigation.`,
     image: "/echo-frame.jpeg?height=400&width=600",
-    tags: ["React", "WebRTC", "Node.js", "TensorFlow.js"],
+    tags: ["React", "Python", "Node.js", "TensorFlow.js"],
     githubLink: "https://github.com/RohitAnish1/quad_squad.git",
   },
   {
@@ -39,18 +48,8 @@ const projects = [
        payroll processing, tracks attendance, and manages
        leave requests efficiently.`,
     image: "/payroll.jpeg?height=400&width=600",
-    tags: ["D3.js", "React", "Express", "Scikit-learn"],
-    githubLink: "https://github.com/RohitAnish1/dbms.git",
-  },
-  {
-    title: "Recyclone",
-    description: `Designed and developed Recyclone, an ML-powered smart dustbin with an app 
-                  that sorts waste efficiently and rewards users for recycling,
-                  promoting sustainability.`,
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Socket.io", "Monaco Editor", "Docker", "Express"],
-    demoLink: "#",
-    githubLink: "#",
+    tags: ["React", "Express", "PostgreSQL"],
+    githubLink: "https://github.com/RohitAnish1/payroll.git",
   },
   {
     title: "MEC Cupid",
@@ -58,9 +57,9 @@ const projects = [
            using Supabase, Node.js, and PostgreSQL for
              compatibility matching, admin approval, and automated WhatsApp notifications.`,
     image: "/mec-cupid.png?height=400&width=600",
-    tags: ["React Native", "TensorFlow", "Firebase", "Node.js"],
+    tags: ["React", "Firebase", "Node.js"],
     githubLink: "https://github.com/RohitAnish1/mec_cupid",
-  },
+  }
 ]
 
 export default function Projects() {
