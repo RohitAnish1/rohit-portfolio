@@ -28,7 +28,7 @@ export default function Footer() {
             className="flex space-x-4 mt-6 md:mt-0"
           >
             <a
-              href="https://github.com/rohitanish"
+              href="https://github.com/RohitAnish1"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
@@ -37,22 +37,13 @@ export default function Footer() {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/rohitanish"
+              href="https://www.linkedin.com/in/rohit-anish-b6b587140/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
             >
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
-            </a>
-            <a
-              href="https://twitter.com/rohitanish"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
             </a>
             <a
               href="mailto:rohitanish158@gmail.com"
