@@ -47,7 +47,7 @@ export default function Resume() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <motion.a
-                  href="https://drive.google.com/file/d/1gMADCO33fmIF2OkznTaYt0Q14cAhxLTv/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1wEmfSobEWwxVbLrnda4_2yP5HGqaYzPD/view?usp=sharing"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="px-6 py-3 rounded-full bg-gray-700 text-white font-medium hover:bg-gray-600 transition-all duration-300 flex items-center justify-center"

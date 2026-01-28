@@ -16,13 +16,11 @@ market-related information`,
     githubLink: "https://github.com/RohitAnish1/FinRAG.git",
   },
   {
-    title: "EchoFrame",
-    description: `Led the development of EchoFrame, an AI-powered smart glass for the visually impaired, 
-                 using YOLO-based object detection and real-time audio
-                feedback for enhanced navigation.`,
-    image: "/echo-frame.jpeg?height=400&width=600",
-    tags: ["React", "Python", "Node.js", "TensorFlow.js"],
-    githubLink: "https://github.com/RohitAnish1/quad_squad.git",
+    title: "Medilog",
+    description: `Developed an system for logging of event for users with memoryloss using Gemini API and Firebase`,
+    image: "/medilog.png?height=400&width=600",
+    tags: ["React", "GeminiAPI", "Node.js", "Firebase"],
+    githubLink: "https://github.com/RohitAnish1/medilog.git",
   },
   {
     title: "Answerly",
@@ -52,13 +50,13 @@ market-related information`,
     githubLink: "https://github.com/RohitAnish1/payroll.git",
   },
   {
-    title: "MEC Cupid",
-    description: `Designed and developed MEC Cupid, a React-based matchmaking platform for a college event, 
-           using Supabase, Node.js, and PostgreSQL for
-             compatibility matching, admin approval, and automated WhatsApp notifications.`,
-    image: "/mec-cupid.png?height=400&width=600",
-    tags: ["React", "Firebase", "Node.js"],
-    githubLink: "https://github.com/RohitAnish1/mec_cupid",
+    title: "EchoFrame",
+    description: `Led the development of EchoFrame, an AI-powered smart glass for the visually impaired, 
+                 using YOLO-based object detection and real-time audio
+                feedback for enhanced navigation.`,
+    image: "/echo-frame.jpeg?height=400&width=600",
+    tags: ["React", "Python", "Node.js", "TensorFlow.js"],
+    githubLink: "https://github.com/RohitAnish1/quad_squad.git",
   }
 ]
 
